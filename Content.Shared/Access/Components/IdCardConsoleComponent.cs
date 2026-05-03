@@ -52,6 +52,9 @@ public sealed partial class IdCardConsoleComponent : Component
         "TownieLaw",
         "TownieMayor",
         "TownsPerson",
+        "FotA", //Misfit Addition
+        "FotADoctor", //Misfit Addition
+        "FotAHead", //Misfit Addition
         "WastelandReporter",
         "WastelandBartender",
         "InnRoomOne",
