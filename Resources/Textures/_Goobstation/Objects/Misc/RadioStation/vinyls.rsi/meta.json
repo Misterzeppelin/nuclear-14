@@ -66,7 +66,6 @@
     },
     {
       "name": "forgotten-vinyl-disk"
-    }
     },
     {
       "name": "earth-vinyl-disk"
@@ -85,6 +84,6 @@
     },
 	  {
       "name": "ttd-vinyl-disk"
-    
+    }
   ]
 }
