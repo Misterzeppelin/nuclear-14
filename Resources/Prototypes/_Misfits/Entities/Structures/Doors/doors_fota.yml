@@ -70,7 +70,7 @@
 
 - type: entity
   parent: BaseFenceMetalGate
-  id: N14DoorFenceMetalLockedFotA
+  id: N14DoorFenceMetalGateLockedFotA
   suffix: FotA, Locked
   components:
   - type: AccessReader
