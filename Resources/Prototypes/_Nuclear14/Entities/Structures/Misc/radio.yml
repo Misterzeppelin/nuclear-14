@@ -128,7 +128,7 @@
     tags:
     - Radio
   - type: Speech
-    speechVerb: Robotic
+    speechVerb: StationRadio
   - type: ActiveRadio
     channels:
     - PBS
