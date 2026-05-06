@@ -4,9 +4,9 @@
   name: lead ore
   suffix: Full
   components:
-  # - type: Stack
-    # stackType: N14LeadOre
-    # count: 10
+  - type: Stack
+    stackType: N14LeadOre
+    count: 10
   - type: Sprite
     sprite: /Textures/_Nuclear14/Objects/Misc/materials.rsi
     state: lead
@@ -27,9 +27,9 @@
   id: N14LeadOre1
   parent: N14LeadOre
   suffix: Single
-  # components:
-    # - type: Stack
-      # count: 1
+  components:
+  - type: Stack
+    count: 1
 
 - type: entity
   parent: OreBase
@@ -169,9 +169,9 @@
   name: sulfur ore
   suffix: Full
   components:
-  # - type: Stack
-    # stackType: SulfurOre
-    # count: 10
+  - type: Stack
+    stackType: SulfurOre
+    count: 10
   - type: Sprite
     sprite: /Textures/_Nuclear14/Objects/Misc/materials.rsi
     state: sulfur
@@ -192,9 +192,9 @@
   id: SulfurOre1
   parent: SulfurOre
   suffix: Single
-  # components:
-    # - type: Stack
-      # count: 1
+  components:
+  - type: Stack
+    count: 1
 
 - type: entity
   parent: OreBase
