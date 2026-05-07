@@ -12,7 +12,7 @@
   # Repair with a welder to restore the pool and re-enable absorption.
   - type: Damageable
   - type: PowerArmorIntegrity
-    maxIntegrity: 350 # #Misfits Tweak: +150 flat integrity buff
+    maxIntegrity: 400 # #Misfits Tweak: By Bill, 400 durability for a little more standing power.
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 18 # #Misfits Tweak - Increased weld repair time from 5s to 30s to 18s; 5s was too fast for combat balance, 30 is too slow, current proposal is 18.
@@ -100,7 +100,7 @@
   description: An old suit of T-51 Power Armor. It looks more advanced than your common everyday T-45.
   components:
   - type: PowerArmorIntegrity
-    maxIntegrity: 400 # #Misfits Tweak: +150 flat integrity buff
+    maxIntegrity: 480 # #Misfits Tweak: By Bill, 480 durability.
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t51.rsi
   - type: Clothing
@@ -134,7 +134,7 @@
   description: A suit of T-60 Power Armor. The T-60 series of power armor was designed to eventually replace the T-51 as the pinnacle of powered armor technology. It however suffered from a minor drawback in its armor placement, making it somewhat less armored.
   components:
   - type: PowerArmorIntegrity
-    maxIntegrity: 375 # #Misfits Tweak: +150 flat integrity buff
+    maxIntegrity: 445 # #Misfits Tweak: By Bill, 445 durability.
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t60.rsi
   - type: Clothing
@@ -210,7 +210,7 @@
   description: A rare, bulky, and advanced suit of power armor. It includes partial hermetic sealing that helps protect against radiation!
   components:
   - type: PowerArmorIntegrity
-    maxIntegrity: 400 # #Misfits Tweak: +150 flat integrity buff
+    maxIntegrity: 460 # #Misfits Tweak: By Bill, 460 a little better than T60 but not T51.
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/advanced1.rsi
   - type: Clothing
@@ -250,7 +250,7 @@
   description: A mass-produced version of the original APA. It sports less plating but is easier to repair and maintain.
   components:
   - type: PowerArmorIntegrity
-    maxIntegrity: 400 # #Misfits Tweak: +150 flat integrity buff
+    maxIntegrity: 485 # #Misfits Tweak: By Bill, better by a tiny bit than T51. TINY BIT
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/advanced2.rsi
   - type: Clothing
@@ -306,7 +306,7 @@
   description: A deep black suit of Enclave-manufactured heavy power armor based on pre-war designs such as the T-51 and improving off of data gathered by post-war designs such as the X-01. Most commonly fielded on the East Coast, no suit rivals its strength.
   components:
   - type: PowerArmorIntegrity
-    maxIntegrity: 400 # #Misfits Tweak: +150 flat integrity buff
+    maxIntegrity: 500 # #Misfits Tweak: By Bill, Hellfire. Literally a rarer than rare armor. Not mapped nor makeable.
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/hellfire.rsi
   - type: Clothing
@@ -429,7 +429,7 @@
   description: A unknown model of power armor manufactured by the Brotherhood of Steel. This modified version is commonly used by high-ranking Brotherhood of Steel Paladins.
   components:
   - type: PowerArmorIntegrity
-    maxIntegrity: 425 # #Misfits Tweak: +150 flat integrity buff
+    maxIntegrity: 450 # #Misfits Tweak: By Bill, 450, a little better than T60.
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/midwestcommander.rsi
   - type: Clothing
@@ -482,7 +482,7 @@
   description: The pinnacle of pre-war technology appropriated by the Brotherhood of Steel. Commonly worn by Paladin Commanders.
   components:
   - type: PowerArmorIntegrity
-    maxIntegrity: 425 # #Misfits Tweak: +150 flat integrity buff
+    maxIntegrity: 490 # #Misfits Tweak: By Bill, little more durability than normal T-51
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t51bc.rsi
   - type: Clothing
@@ -658,7 +658,7 @@
   description: A pinnacle of pre-war military engineering, the T-51b was standard issue for front-line infantry units during the Sino-American conflict. This suit's fusion-powered servos and composite plating have withstood the test of time.
   components:
   - type: PowerArmorIntegrity
-    maxIntegrity: 425 # #Misfits Tweak: +150 flat integrity buff
+    maxIntegrity: 485 # #Misfits Tweak: By Bill, a little better than T51 but not as good as T51BC
   - type: Sprite
     sprite: _Nuclear14/Clothing/OuterClothing/PowerArmor/t51washelite.rsi
   - type: Clothing

@@ -23,7 +23,7 @@
 - type: trait
   id: LanguageTribal
   category: Speech
-  points: -3
+  points: -2
   requirements:
   - !type:CharacterDepartmentRequirement
     inverted: true
@@ -78,7 +78,7 @@
 - type: trait
   id: N14Muted
   category: Speech
-  points: 2 # Forge-Change
+  points: 10 # Bill Change, intended 8 points, spend 2 on getting sign language so it rounds to 8.
   requirements:
   - !type:CharacterDepartmentRequirement # Forge-Change
       inverted: true
@@ -181,7 +181,7 @@
 - type: trait
   id: N14ScottishAccent
   category: Speech
-  points: -1
+  points: 1 # By Bill: THIS SHIT MAKES YOU IMPOSSIBLE TO UNDERSTAND MAN. THIS IS A PENALTY.
   requirements:
   - !type:CharacterTraitRequirement
     inverted: true

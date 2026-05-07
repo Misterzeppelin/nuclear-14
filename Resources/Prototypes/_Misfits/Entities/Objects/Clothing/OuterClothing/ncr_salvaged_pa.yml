@@ -18,7 +18,7 @@
     requiresProficiency: false # #Misfits Add - waive training gate for this salvaged variant
   # 250 HP integrity pool (lower than standard NCR T45 at 325).
   - type: PowerArmorIntegrity
-    maxIntegrity: 250          # #Misfits Add - lighter salvaged plating
+    maxIntegrity: 285          # #Misfits Add - lighter salvaged plating
     brokenBleedthroughRatio: 1.0  # #Misfits Add - when broken, only armor coefficients apply (35% mitigation from plates alone)
     disableServosLock: true       # #Misfits Add - no servo-lock speed debuff when armor breaks
   # 50% passive damage reduction post-integrity (nerfed from 35% salvaged plate). # #Misfits Tweak - coefficients raised from 0.65 → 0.50 (half damage on all main types)

@@ -1,7 +1,7 @@
 - type: trait
   id: LanguageLatin
   category: Speech
-  points: -3
+  points: -6
   requirements:
     - !type:CharacterDepartmentRequirement
       inverted: true
@@ -17,14 +17,14 @@
 - type: trait
   id: LanguageNerd # NerdCat
   category: Speech
-  points: -6
+  points: -9
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
         - Spanish # #Misfits Fix - was Chinese, should be Spanish per trait description
-        - Tribal
         - Latin
+        - Chinese # Bill Change: Now includes chinese again.
       languagesUnderstood:
         - Spanish # #Misfits Fix - was Chinese, should be Spanish per trait description
-        - Tribal
         - Latin
+        - Chinese # Bill Change: now includes chinese again.
