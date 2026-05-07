@@ -4656,3 +4656,14 @@ Entries:
   id: 5841
   time: '2026-05-07T20:20:44.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/444
+- author: Vixting
+  changes:
+    - type: Fix
+      message: Fix transferring solutions mispredicting
+    - type: Fix
+      message: Chem dispenser
+    - type: Fix
+      message: 'Solutions reacting when dragging into chem dispenser '
+  id: 5842
+  time: '2026-05-07T20:36:23.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/445
