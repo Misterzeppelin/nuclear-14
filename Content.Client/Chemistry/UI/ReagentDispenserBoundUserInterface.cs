@@ -32,7 +32,9 @@ namespace Content.Client.Chemistry.UI
             // Setup window layout/elements
             _window = this.CreateWindow<ReagentDispenserWindow>();
             _window.Title = EntMan.GetComponent<MetaDataComponent>(Owner).EntityName;
-            _window.HelpGuidebookIds = EntMan.GetComponent<GuideHelpComponent>(Owner).Guides;
+            _window.HelpGuidebookIds = EntMan.TryGetComponent(Owner, out GuideHelpComponent? guideHelp)
+                ? guideHelp.Guides
+                : null;
 
             // Setup static button actions.
             _window.EjectButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent(SharedReagentDispenser.OutputSlotName));

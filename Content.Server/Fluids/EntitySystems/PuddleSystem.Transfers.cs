@@ -31,11 +31,20 @@ public sealed partial class PuddleSystem
             {
                 var split = _solutionContainerSystem.SplitSolution(soln.Value, solution.Volume);
                 dumpableSolution.AddSolution(split, _prototypeManager);
+                _solutionContainerSystem.UpdateChemicals(dumpableSoln.Value, needsReactionsProcessing: false);
             }
             else
             {
-                var split = _solutionContainerSystem.SplitSolution(soln.Value, dumpableSolution.AvailableVolume);
-                success = _solutionContainerSystem.TryAddSolution(dumpableSoln.Value, split);
+                if (dumpableSolution.AvailableVolume <= FixedPoint2.Zero)
+                {
+                    success = false;
+                }
+                else
+                {
+                    var split = _solutionContainerSystem.SplitSolution(soln.Value, dumpableSolution.AvailableVolume);
+                    dumpableSolution.AddSolution(split, _prototypeManager);
+                    _solutionContainerSystem.UpdateChemicals(dumpableSoln.Value, needsReactionsProcessing: false);
+                }
             }
 
             if (success)
