@@ -47,15 +47,14 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.667   # #Misfits Tweak - 33% DR → 600 effective HP
-        Slash: 0.667
-        Piercing: 0.667
+        Blunt: 0.65   # #Misfits Tweak - 33% DR → 600 effective HP
+        Slash: 0.65
+        Piercing: 0.65
         Heat: 0.70     # slightly weaker heat resist than physical — chassis cooling limits
   - type: Reflect # #Misfits Add - 30% ricochet on medium plating; stacks on top of bare chassis 10% (outermost check wins)
     reflects:
       - SmallCaliber
-      - MediumCaliber
-    reflectProb: 0.30
+    reflectProb: 0.20
     innate: true
     spread: 90
   - type: ClothingSpeedModifier
@@ -79,18 +78,18 @@
         Radiation: 0.0 # explicit immunity (also in MisfitsC27Silicon modset)
   - type: Repairable  # #Misfits Add - weld repair for heavy plating
     fuelCost: 10
-    doAfterDelay: 30
+    doAfterDelay: 100
     qualityNeeded: Welding
-  - type: Reflect # #Misfits Add - 60% ricochet on heavy plating; hardened combat chassis deflects most small/medium rounds. .50 bypasses via ignoreResistances:true
+  - type: Reflect # #Misfits Add - 20% ricochet on heavy plating; hardened combat chassis deflects most small/medium rounds. .50 bypasses via ignoreResistances:true ALSO BECAUSE OF SHITCODE I CANT REMOVE ENERGY DEFLECT BY ITSELF THE AI THEY HAD CODE REFLECT DECIDED REFLECT IN ITSELF DOES ENERGY DEFLECT
     reflects:
       - SmallCaliber
       - MediumCaliber
-    reflectProb: 0.60
+    reflectProb: 0.20
     innate: true
     spread: 90
   - type: ClothingSpeedModifier
-    walkModifier: 0.80 # #Misfits Tweak - 20% penalty; meaningful tradeoff for the DR
-    sprintModifier: 0.80
+    walkModifier: 0.75 # #Misfits Tweak - 25% penalty; meaningful tradeoff for the DR
+    sprintModifier: 0.75
   - type: ExplosionResistance
     damageCoefficient: 0.15 # #Misfits Tweak - 85% explosion reduction
 
