@@ -129,6 +129,7 @@
     - !type:CharacterTraitRequirement
       traits:
       - LanguageChinese
+      - LanguageNerd 
     - !type:CharacterItemGroupRequirement
       group: N14LoadoutGuns
     - !type:CharacterDepartmentRequirement # Corvax-Change
@@ -397,6 +398,7 @@
     - !type:CharacterTraitRequirement
       traits:
       - LanguageChinese
+      - LanguageNerd 
     - !type:CharacterItemGroupRequirement
       group: N14LoadoutMelee
   items:
