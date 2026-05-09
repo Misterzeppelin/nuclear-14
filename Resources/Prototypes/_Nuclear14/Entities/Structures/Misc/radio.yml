@@ -153,6 +153,10 @@
       enum.DeviceCustomFrequencyUiKey.Key:
         type: DeviceCustomFrequencyBoundUserInterface
   - type: StationRadioReceiver
+  - type: Anchorable
+  - type: Rotatable
+  - type: Item
+    size: Large
 
 - type: entity # Prototype for radio receivers
   name: standing microphone

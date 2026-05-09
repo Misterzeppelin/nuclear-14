@@ -50,7 +50,7 @@ public sealed class VinylPlayerSystem : EntitySystem
     {
         if (args.Port != ent.Comp.MusicOutputPort)
             return;
-
+        StopAudio(ent);
         ent.Comp.ServerEntity = null;
     }
 

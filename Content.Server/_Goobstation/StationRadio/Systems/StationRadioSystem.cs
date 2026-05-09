@@ -39,7 +39,6 @@ public sealed class StationRadioSystem : EntitySystem
     {
         base.Initialize();
         SubscribeLocalEvent<StationRadioServerComponent, NewLinkEvent>(OnServerNewLink);
-        SubscribeLocalEvent<StationRadioServerComponent, PortDisconnectedEvent>(OnServerDisconnected);
         SubscribeLocalEvent<StationRadioServerComponent, DeviceNetworkPacketEvent>(OnServerRelay);
         SubscribeLocalEvent<StationRadioServerComponent, DeviceNetworkFrequencyChangedEvent>(OnServerChangeFrequency);
         SubscribeLocalEvent<StationRadioServerComponent, PowerChangedEvent>(OnServerPowerChaned);
@@ -61,18 +60,6 @@ public sealed class StationRadioSystem : EntitySystem
 
         ent.Comp.VinylPlayer = args.Source;
     }
-
-    private void OnServerDisconnected(Entity<StationRadioServerComponent> ent, ref PortDisconnectedEvent args)
-    {
-        if (!TryComp<DeviceNetworkComponent>(ent.Owner, out var network)) return;
-        
-        var stopPayload = new NetworkPayload()
-        {
-            [DeviceNetworkConstants.Command] = StopAudioCommand
-        };
-        _device.QueuePacket(ent.Owner, null, stopPayload, network.ReceiveFrequency);
-    }
-
 
     private void OnServerRelay(Entity<StationRadioServerComponent> ent, ref DeviceNetworkPacketEvent args)
     {
