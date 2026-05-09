@@ -267,7 +267,7 @@
         - type: PassiveDamage
           allowedStates:
           - Alive # Forge-Change
-          - Critical # So the idea here is that you MIGHT get out of crit, given time and IF you have multiple different dmg types. However if you don't have 3 DIFFERENT dmgs you will not get out of crit, basically this is more to make sure you can stay alive alot longer while in crit.
+          - Critical # takes a bit to get out of crit, but if no one kills you and you don't lose all your blood, you live!
           damageCap: 200
           damage:
             types:
@@ -279,7 +279,7 @@
               Shock: -0.25
               Cold: -0.25
               Caustic: -0.25
-              Asphyxiation: -0.15
+              Asphyxiation: -1 # Basically counteracts the critcal suffocation dmg
               Bloodloss: -0.15
               Poison: -0.15
               Radiation: -0.15
