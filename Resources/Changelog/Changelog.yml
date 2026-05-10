@@ -4768,3 +4768,10 @@ Entries:
   id: 5852
   time: '2026-05-10T07:24:49.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/464
+- author: Wazura
+  changes:
+    - type: Add
+      message: 'Bunch of one-handed melees, pistols and a magnum for loadouts '
+  id: 5853
+  time: '2026-05-10T07:25:11.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/454
