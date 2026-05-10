@@ -79,6 +79,98 @@
   items:
     - N14WeaponPistol9mm
 
+- type: loadout
+  id: N14WeaponPistol45Colt
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+    - !type:CharacterDepartmentRequirement 
+      inverted: true
+      departments:
+      - Vault
+    - !type:CharacterJobRequirement 
+      inverted: true
+      jobs:
+      - BoSMidSerf
+      - CaesarLegionSlave
+      - NCRPisoner
+  items:
+    - N14WeaponPistol45Colt
+
+
+
+
+- type: loadout
+  id: N14WeaponPistol9mmChinese
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterTraitRequirement
+      traits:
+      - LanguageChinese
+      - LanguageNerd 
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+      - Vault
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - BoSMidSerf
+      - CaesarLegionSlave
+      - NCRPisoner
+  items:
+    - N14WeaponPistol9mmChinese
+
+- type: loadout
+  id: N14WeaponPistolWebley
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+      - Vault
+    - !type:CharacterJobRequirement 
+      inverted: true
+      jobs:
+      - BoSMidSerf
+      - CaesarLegionSlave
+      - NCRPisoner
+  items:
+    - N14WeaponPistolWebley
+
+
+- type: loadout
+  id: N14WeaponRevolver44Magnun
+  category: Weapons
+  cost: 3
+  requirements:
+    - !type:OverallTimeRequirement
+      min: 6800
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutGuns
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+      - Vault
+    - !type:CharacterJobRequirement 
+      inverted: true
+      jobs:
+      - BoSMidSerf
+      - CaesarLegionSlave
+      - NCRPisoner
+  items:
+    - N14WeaponRevolver44Magnun
+
+
+
 ## Shotguns
 - type: loadout
   id: N14WeaponShotgunDoubleBarrel
@@ -146,6 +238,112 @@
       - NCRPisoner
   items:
     - SpeedLoader9
+
+- type: loadout
+  id: N14SpeedLoader44
+  category: Weapons
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutAmmo
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+      - Vault
+    - !type:CharacterJobRequirement 
+      inverted: true
+      jobs:
+      - BoSMidSerf
+      - CaesarLegionSlave
+      - NCRPisoner
+  items:
+    - SpeedLoader44
+
+
+
+- type: loadout
+  id: N14MagazinePistol9mm
+  category: Weapons
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutAmmo
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+      - Vault
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - BoSMidSerf
+      - CaesarLegionSlave
+      - NCRPisoner
+  items:
+    - N14MagazinePistol9mm
+
+- type: loadout
+  id: N14MagazinePistol22lr
+  category: Weapons
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutAmmo
+    - !type:CharacterDepartmentRequirement 
+      inverted: true
+      departments:
+      - Vault
+    - !type:CharacterJobRequirement 
+      inverted: true
+      jobs:
+      - BoSMidSerf
+      - CaesarLegionSlave
+      - NCRPisoner
+  items:
+    - N14MagazinePistol22lr
+
+
+- type: loadout
+  id: N14MagazinePistol10mm
+  category: Weapons
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutAmmo
+    - !type:CharacterDepartmentRequirement 
+      inverted: true
+      departments:
+      - Vault
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - BoSMidSerf
+      - CaesarLegionSlave
+      - NCRPisoner
+  items:
+    - N14MagazinePistol10mm
+
+
+
+- type: loadout
+  id: N14MagazinePistol45
+  category: Weapons
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutAmmo
+    - !type:CharacterDepartmentRequirement 
+      inverted: true
+      departments:
+      - Vault
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - BoSMidSerf
+      - CaesarLegionSlave
+      - NCRPisoner
+  items:
+    - N14MagazinePistol45
+
 
 ## Melee
 - type: loadout
@@ -222,6 +420,29 @@
   items:
     - N14Hatchet
 
+
+
+- type: loadout
+  id: N14PoliceBaton
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+  items:
+    - N14PoliceBaton
+
+
+- type: loadout
+  id: N14TrenchClub
+  category: Weapons
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+  items:
+    - N14TrenchClub
+
 - type: loadout
   id: N14Machete
   category: Weapons
@@ -245,3 +466,27 @@
         - Tribe
   items:
     - N14TribalSword
+
+- type: loadout
+  id: N14LongSword
+  category: Weapons
+  cost: 4
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+  items:
+    - N14LongSword
+
+- type: loadout
+  id: N14ChineseSword
+  category: Weapons
+  cost: 5
+  requirements:
+    - !type:CharacterTraitRequirement
+      traits:
+      - LanguageChinese
+      - LanguageNerd 
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutMelee
+  items:
+    - N14ChineseSword
