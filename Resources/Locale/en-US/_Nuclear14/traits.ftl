@@ -188,11 +188,11 @@ trait-description-N14PartyAnimal =
 
 trait-name-N14ShortArms = Short Arms
 trait-description-N14ShortArms =
-    Your arms are shorter than they should be. Your [color=yellow]melee range[/color] is [color=red]decreased by 10%[/color].
+    Your arms are shorter than they should be. Your [color=yellow]unarmed melee range[/color] is [color=red]decreased by 10%[/color].
 
 trait-name-N14Blitz = Blitz
 trait-description-N14Blitz =
-    You are able to move really fast and hand slaps out from far away. Your [color=yellow]melee range[/color] is [color=green]increased by 15%[/color].
+    You are able to move really fast and hand slaps out from far away. Your [color=yellow]unarmed melee range[/color] is [color=green]increased by 15%[/color].
 
 trait-name-N14ScriptedDeath = Scripted Death
 trait-description-N14ScriptedDeath =
@@ -209,8 +209,8 @@ trait-description-N14LifeTaker =
 trait-name-N14LifeGiver = Life Giver
 trait-description-N14LifeGiver =
     Whether it be through raw grit, willpower, or some sort of augmentation you are more difficult to kill.
-    Your damage [color=yellow]threshold for Critical[/color] is [color=green]decreased by 5 points[/color].
-    And the damage [color=yellow]tresshold for Death[/color] is [color=green]decreased by 10 points[/color].
+    Your damage [color=yellow]threshold for Critical[/color] is [color=green]increased by 5 points[/color].
+    And the damage [color=yellow]tresshold for Death[/color] is [color=green]increased by 10 points[/color].
 
 trait-name-N14BadReflexes = Bad Reflexes
 trait-description-N14BadReflexes =
@@ -227,7 +227,7 @@ trait-description-N14Poisoned =
     A while ago you were poisoned by something or someone and it still didn't clear from your system.
     You are constantly taking [color=red]Poison damage[/color], making you antidote dependant.
 
-trait-name-N14UnnaturalReg = Unnatrual Regeneration
+trait-name-N14UnnaturalReg = Unnatural Regeneration
 trait-description-N14UnnaturalReg =
     For some reason your body heals a lot faster than it normally should.
     You just keep healing damage, not really fast but it save you from wasting meds,

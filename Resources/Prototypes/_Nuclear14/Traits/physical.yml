@@ -252,7 +252,7 @@
 - type: trait
   id: N14UnnaturalReg
   category: Physical
-  points: -5
+  points: -8 # Look I buff it by quite a bit, so a change from 5 to 8 is justified
   requirements:
     - !type:CharacterTraitRequirement
       inverted: true
@@ -267,21 +267,22 @@
         - type: PassiveDamage
           allowedStates:
           - Alive # Forge-Change
-          damageCap: 200
+          - Critical # takes a bit to get out of crit, but if no one kills you and you don't lose all your blood, you live!
+          damageCap: 300 # makes it works with life giver
           damage:
             types:
-              # #Misfits Fix - PassiveDamage group healing is split across member types; direct types make burn regeneration visible.
-              Blunt: -0.035
-              Slash: -0.035
-              Piercing: -0.035
-              Heat: -0.035
-              Shock: -0.035
-              Cold: -0.035
-              Caustic: -0.035
-              Asphyxiation: -0.035
-              Bloodloss: -0.035
-              Poison: -0.015
-              Radiation: -0.015
+              # #Misfits Fix - PassiveDamage group healing is split across member types; direct types make burn regeneration visible. 1 Hp for every 4 seconds
+              Blunt: -0.25
+              Slash: -0.25
+              Piercing: -0.25
+              Heat: -0.25
+              Shock: -0.25
+              Cold: -0.25
+              Caustic: -0.25
+              Asphyxiation: -1 # Basically counteracts the critcal suffocation dmg
+              Bloodloss: -0.15
+              Poison: -0.15
+              Radiation: -0.15
 
 - type: trait
   id: N14WorldChampion
