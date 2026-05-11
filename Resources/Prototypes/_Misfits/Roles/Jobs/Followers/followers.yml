@@ -55,6 +55,7 @@
     - RobotRobobrain
     - RobotRobobrainLaser
     - SuperMutant
+    - Nightkin
   special:
   - !type:AddComponentSpecial
     components:
@@ -127,6 +128,7 @@
     - RobotRobobrain
     - RobotRobobrainLaser
     - SuperMutant
+    - Nightkin
   special:
   - !type:AddComponentSpecial
     components:
@@ -193,6 +195,7 @@
     - RobotRobobrain
     - RobotRobobrainLaser
     - SuperMutant
+    - Nightkin
   special:
   - !type:AddComponentSpecial
     components:
