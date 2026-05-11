@@ -16,4 +16,4 @@
   - type: BallisticDamageFalloff
     falloffStartTiles: 6.0
     maxFalloffTiles: 12.0
-    minDamageMultiplier: 0.60
+    minDamageMultiplier: 0.50
